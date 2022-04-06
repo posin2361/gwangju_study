@@ -11,7 +11,7 @@
 - [채움문자와 숫자 표시형식](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/채움문자와%20숫자%20표시형식/README.md)
 - [진법과 실수 출력 형식 지정](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/진법과%20실수%20출력%20형식%20지정/README.md)
 - [{}와 % 출력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/%7B%7D와%20%25%20출력)
-- 연산자( *, +)
+- [연산자( *, +)](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/연산자(%20*,%20+)/README.md)
 2. 입력받기
 3. 파일읽기_open()
 - readlines()
