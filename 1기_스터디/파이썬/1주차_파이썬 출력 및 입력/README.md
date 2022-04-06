@@ -4,4 +4,4 @@
 1. 출력_print()
 2. 입력_input()
 3. 파일읽기_open()
-3-1. readlines()
+- readlines()
