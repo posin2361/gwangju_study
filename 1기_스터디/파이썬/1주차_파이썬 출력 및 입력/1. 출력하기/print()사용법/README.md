@@ -8,5 +8,5 @@ print("출력하고자 하는 문자열")
 
 ```
 print("hello")
->>>hello
+>>> hello
 ```
