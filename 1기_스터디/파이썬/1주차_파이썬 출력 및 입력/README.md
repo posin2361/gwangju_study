@@ -9,7 +9,7 @@
 - [문자열 앞 0으로 채우기 zfill()](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/문자열%20앞%200으로%20채우기%20zfill())
 - [길이와 정렬](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/길이와%20정렬)
 - [채움문자와 숫자 표시형식](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/채움문자와%20숫자%20표시형식/README.md)
-- 진법과 실수 출력 형식 지정
+- [진법과 실수 출력 형식 지정](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/진법과%20실수%20출력%20형식%20지정/README.md)
 - {}와 % 출력
 - 연산자( *, +)
 2. 입력받기
