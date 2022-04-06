@@ -13,5 +13,9 @@
 - [{}와 % 출력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/%7B%7D와%20%25%20출력)
 - [연산자( *, +)](https://github.com/posin2361/gwangju_study/blob/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/연산자(%20*,%20+)/README.md)
 2. 입력받기
+- input함수
+- 정수 입력
+- 실수 입력
+- 튜플, 리스트 입력 받기
 3. 파일읽기_open()
 - readlines()
