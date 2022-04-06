@@ -5,8 +5,8 @@
 - [print() 사용법](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/print()사용법)
 - [문자열 출력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/문자열%20출력)
 - [확장 문자 출력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/확장%20문장%20출력)
-- 형식에 맞추어 출력
-- 문자열 앞 0으로 채우기 zfill()
+- [형식에 맞추어 출력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/형식에%20맞추어%20출력)
+- [문자열 앞 0으로 채우기 zfill()](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/1.%20출력하기/문자열%20앞%200으로%20채우기%20zfill())
 - 길이와 정렬
 - 채움문자와 숫자 표시형식
 - 진법과 실수 출력 형식 지정
