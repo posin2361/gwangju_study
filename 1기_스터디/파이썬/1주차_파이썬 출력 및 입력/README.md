@@ -16,6 +16,6 @@
 - [input함수](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/2.%20입력받기/input함수)
 - [정수 입력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/2.%20입력받기/정수%20입력)
 - [실수 입력](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/2.%20입력받기/실수%20입력)
-- 튜플, 리스트 입력 받기
+- [튜플, 리스트 입력 받기](https://github.com/posin2361/gwangju_study/tree/main/1기_스터디/파이썬/1주차_파이썬%20출력%20및%20입력/2.%20입력받기/튜플,%20리스트%20입력%20받기)
 3. 파일읽기_open()
 - readlines()
