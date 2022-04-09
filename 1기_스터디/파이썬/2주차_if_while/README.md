@@ -20,7 +20,7 @@
 
 ```python
 write = "I WILL NOT PAY MY SISTER TO DO MY PUNISHMENT" 
-# 나는 내 벌을 대신 수행한 동생에게 아무보상도 안해줄거다. ~ 🤣  
+# 나는 내 벌을 대신 해준 동생에게 아무 것도 안해줄거다. ~ 🤣  
 print(write)
 >>> I WILL NOT PAY MY SISTER TO DO MY PUNISHMENT
 ```
