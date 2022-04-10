@@ -14,7 +14,7 @@
 >
 >
 
-## 2. Pass, Continue, Break
+## 2. Pass, Continue, Break : 반복문 제어하기
 
     반복문에서 공통적으로 사용되는 반복문을 제어하기 위해 사용하는 구문 입니다.
 
@@ -62,7 +62,9 @@
 >  
 > 결과적으로는 홀수만 출력되고 루프문이 종료된다.
 >
-> 반복문에서 continue 를 만날경우 해당 번째 루프를 건너뛰고 다음 루프를 진행 하는것으로 이해하면 좋을거 같습니다.
+> 반복문에서 continue 를 만날경우 해당 번째 루프를 건너뛰고 다음 루프를 진행 하는것으로 이해하면 좋다.
+
+
 
 
 ### 2.3 Break
@@ -94,4 +96,53 @@
 >
 > 위의 예제는 0~9 값중 나머지가 0이면 break문이 실행되면서 for문에서 실제로 출력되는값은 
 >없습니다.
-> break 문을 만날경우 해당 루프를 종료 한다고 이해 하시면 될거 같습니다.
+> break 문을 만날경우 해당 루프를 종료 한다고 이해하면 된다.
+
+
+## 3. 다중 반복문
+
+### 3.1 다중 반복문 
+> 반복문을 중첩으로 사용하여 반복문을 반복하는 프로그램 역시 작성할 수 있다.
+```python 
+# 다중 for 반복문 1
+for num in range(5):
+    for value in  range(5):
+        print(value ,end=" ")
+```
+<details>
+    <summary>Answer</summary>
+
+```python
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+```
+</details>
+
+```python
+# 다중 while 반복문 1
+num =0
+while num < 5:
+     number = 0
+     while number < 5:
+          print(number , end=" ")
+          number+=1
+     print()
+     num+=1
+```
+
+<details>
+    <summary>Answer</summary>
+
+```python
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+    >>> 0 1 2 3 4
+```
+
+</details>
+
