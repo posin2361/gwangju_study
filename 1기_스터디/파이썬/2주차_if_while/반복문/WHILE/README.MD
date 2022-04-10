@@ -1,7 +1,7 @@
 <!-- while readme.md -->
 While
 ===
-> 이 문서는 While 반복문에 대해 설명하는 문서입니다.
+> 이 문서는 While 반복문에 대해 설명하는 문서입니다. 이 문서를 읽기전 [같이사용되는함수](../../%EA%B0%99%EC%9D%B4_%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94_%ED%95%A8%EC%88%98/README.MD) 와 [반복문](../../%EB%B0%98%EB%B3%B5%EB%AC%B8/README.md) 선행해서 읽기 권장합니다.
 
 ## While 반복문
 
@@ -73,7 +73,7 @@ While
 
 > while 반복문은 조건에 대한 반복문이다. 조건이 항상 참인경우 루프문이 계속 반복하게된다. 보통 while True(python 에서 True 첫글자는 대문자로 작성함으로써 값의 참을 명시한다.)로 나타내며 True가 아니라 조건이 참이라면 위의 예문과 같이 무한 루프문으로 동작한다. 
 
-### Example
+## Example 
 
 ```python
     # while example 1

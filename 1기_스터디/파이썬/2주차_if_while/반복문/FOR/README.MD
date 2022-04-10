@@ -3,7 +3,7 @@ For
 ===
 > 이 문서는 For 반복문에 대해 설명하는 문서입니다.
 > 
-> 해당 문서를 읽기전 [같이사용되는함수](../../%EA%B0%99%EC%9D%B4_%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94_%ED%95%A8%EC%88%98/README.MD)를 선행해서 읽기 권장합니다.
+> 해당 문서를 읽기전 [같이사용되는함수](../../%EA%B0%99%EC%9D%B4_%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94_%ED%95%A8%EC%88%98/README.MD) 와 [반복문](../../%EB%B0%98%EB%B3%B5%EB%AC%B8/README.md) 선행해서 읽기 권장합니다.
 
 ## For 반복문
     For 반복문은  프로그래밍 작성시 반복의 범위가 정해지는 경우 사용한다.
@@ -61,5 +61,66 @@ for value in value_list :
 ```
 > 간략하게 설명을 더해보자면 value_list = [1,2,3,4] 안에 들어있는 값을 하나씩 value에 넣어 더 이상 넣을수 없을떄 까지 반복한다고 이해하면 된다.
 > 
-## 
+
+
+## Example  
+
+
+```python
+
+    for number in reversed(range(5)):
+        print(number ,end =" ") 
+
+```
+
+<details>
+  <summary>Answer</summary>
+
+    ```python
+        >>> 4 3 2 1 0
+    ```
+
+</details>
+
+
+```python
+
+    for odd in range(1,10):
+        if odd%2==1:
+            print(odd , end=" ")
+```
+
+
+
+<details>
+  <summary>Answer</summary>
+
+    ```python
+        >>> 1 3 5 7 9
+    ```
+
+</details>
+
+
+```python
+
+        for number in range(1,4):
+            for num in range(1,5):
+                print(f"{number} * {num}= {number*num}" , end =" ")
+            print()
+
+```
+
+<details>
+  <summary>Answer</summary>
+
+    ```python
+        
+        >>>1 * 1= 1 1 * 2= 2 1 * 3= 3 1 * 4= 4 
+        >>>2 * 1= 2 2 * 2= 4 2 * 3= 6 2 * 4= 8
+        >>>3 * 1= 3 3 * 2= 6 3 * 3= 9 3 * 4= 12
+
+    ```
+
+</details>
 
