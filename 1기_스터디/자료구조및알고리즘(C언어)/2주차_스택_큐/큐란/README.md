@@ -9,22 +9,7 @@ rear : 마지막 요소의 인덱스
 enqueue(q, e)  = 큐의 뒤에 요소를 추가한다.
 dequeue(q) = 큐의 앞에 있는 요소를 반환한 다음 삭제한다.
 
-/* 삽입 함수 */
-void enqueue(QueueType *q, element item) {
-    if(is_full(q))
-    error("큐가 포화상태입니다");
-    rear = (rear+1) % MAX_QUEUE_SIZE;
-    queue[rear] = item;
-}
-
-/* 삭제 함수 */
-element dequeue(QueueType *q) {
-    if(is_empty(q))
-    error("큐가 공백상태입니다.");
-    front = (front+1) % MAX_QUEUE_SIZE;
-    return queue[front];
-}
-
+![image](https://user-images.githubusercontent.com/103267689/163175095-b7eea8a1-8575-4e64-be41-68f747e07b60.png)
 
 
 덱큐 : 앞과 뒤에서 삽입과 삭제가 가능하다.
@@ -35,35 +20,8 @@ add_rear(dq, e) = 덱의 뒤에 요소를 추가한다.
 delete_front(dq) = 덱의 앞에 있는 요소를 반환한 다음 삭제한다
 delete_rear(dq) = 덱의 뒤에 있는 요소를 반환한 다음 삭제한다.
 
-/* 첫 번째의 삽입 함수 */
-void add_front(DequeType *q, element val) {
-    if)is_full(q))
-    error("큐가 포화상태입니다.");
-    data[front] = val;
-    front = (front - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
-}
+![image](https://user-images.githubusercontent.com/103267689/163175233-1e9a1a8f-3f1e-43b1-a767-acdc63a3a1f0.png)
 
-/* 마지막의 추가 함수 */
-void add_rear(DequeType *q, element item) {
-    if (is_full(q))
-    error("큐가 포화상태입니다");
-    rear = (rear + 1) % MAX_QUEUE_SIZE;
-    data[rear] = item;
-}
+![image](https://user-images.githubusercontent.com/103267689/163175397-5048cb73-f01a-47ed-9bf4-e77e0f7cceca.png)
 
-/* 첫 번째의 삭제 함수 */
-element delete_front(DequeType *q) {
-    if (is_empty(q))
-    error("큐가 공백상태입니다");
-    front = (front + 1) % MAX_QUEUE_SIZE;
-    return data[front];
-}
-
-/* 마지막의 삭제 함수 */
-element delete_rear(DequeType *q) {
-    int prev = rear;
-    if (is_empty(q))
-    error("큐가 공백상태입니다");
-    rear = (rear - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
-    return qdata[prev];
-}
+![image](https://user-images.githubusercontent.com/103267689/163175433-665a48f1-a78a-4ab7-82a9-aba7329871e7.png)
